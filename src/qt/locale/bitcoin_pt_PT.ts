@@ -62,12 +62,12 @@
         <translation>A receber endereços</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Monacoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
+        <source>These are your NobleGasCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços NobleGasCoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Monacoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
+        <source>These are your NobleGasCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços NobleGasCoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -342,8 +342,8 @@
         <translation>A reindexar os blocos no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Enviar moedas para um endereço Monacoin</translation>
+        <source>Send coins to a NobleGasCoin address</source>
+        <translation>Enviar moedas para um endereço NobleGasCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>NobleGasCoin</source>
+        <translation>NobleGasCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -394,12 +394,12 @@
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Assine as mensagens com os seus endereços Monacoin para provar que é o proprietário dos mesmos</translation>
+        <source>Sign messages with your NobleGasCoin addresses to prove you own them</source>
+        <translation>Assine as mensagens com os seus endereços NobleGasCoin para provar que é o proprietário dos mesmos</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Monacoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified NobleGasCoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço NobleGasCoin especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -438,8 +438,8 @@
         <translation>&amp;Opções da linha de &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Monacoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Monacoin</numerusform><numerusform>%n ligações ativas à rede Monacoin</numerusform></translation>
+        <source>%n active connection(s) to NobleGasCoin network</source>
+        <translation><numerusform>%n ligação ativa à rede NobleGasCoin</numerusform><numerusform>%n ligações ativas à rede Monacoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -482,7 +482,7 @@
         <translation>Atualizado</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible NobleGasCoin command-line options</source>
         <translation>Mostrar a mensagem de ajuda %1 para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
@@ -552,8 +552,8 @@
         <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O Monacoin não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. NobleGasCoin can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O NobleGasCoin não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -746,7 +746,7 @@
         <translation>Editar o endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
+        <source>The entered address "%1" is not a valid NobleGasCoin address.</source>
         <translation>O endereço introduzido "%1" não é um endereço monacoin válido.</translation>
     </message>
     <message>
@@ -859,8 +859,8 @@
         <translation>Utilizar uma pasta de dados personalizada:</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>NobleGasCoin</source>
+        <translation>NobleGasCoin</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
@@ -1061,7 +1061,7 @@
         <translation>&amp;Gastar troco não confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the NobleGasCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abrir a porta do cliente monacoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
@@ -1077,8 +1077,8 @@
         <translation>Permitir ligações de "a receber"</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede da Monacoin através dum proxy SOCLS5.</translation>
+        <source>Connect to the NobleGasCoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede da NobleGasCoin através dum proxy SOCLS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1113,8 +1113,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Ligar à rede Monacoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
+        <source>Connect to the NobleGasCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Ligar à rede NobleGasCoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1216,8 +1216,8 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Monacoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NobleGasCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede NobleGasCoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1307,8 +1307,8 @@
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Monacoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Monacoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid NobleGasCoin address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço NobleGasCoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1409,8 +1409,8 @@
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
-        <translation>Entre um endereço Monacoin (ex. %1)</translation>
+        <source>Enter a NobleGasCoin address (e.g. %1)</source>
+        <translation>Entre um endereço NobleGasCoin (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1817,8 +1817,8 @@
         <translation>&amp;Mensagem:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monacoin network.</source>
-        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Monacoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NobleGasCoin network.</source>
+        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede NobleGasCoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2199,8 +2199,8 @@
         <translation>Pague apenas a taxa obrigatória de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Monacoin address</source>
-        <translation>Aviso: endereço Monacoin inválido</translation>
+        <source>Warning: Invalid NobleGasCoin address</source>
+        <translation>Aviso: endereço NobleGasCoin inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2242,8 +2242,8 @@
         <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
-        <source>The Monacoin address to send the payment to</source>
-        <translation>O endereço Monacoin para enviar o pagamento</translation>
+        <source>The NobleGasCoin address to send the payment to</source>
+        <translation>O endereço NobleGasCoin para enviar o pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2290,8 +2290,8 @@
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monacoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI monacoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Monacoin.</translation>
+        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NobleGasCoin network.</source>
+        <translation>Uma mensagem que estava anexada ao URI monacoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede NobleGasCoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2339,8 +2339,8 @@
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Monacoin address to sign the message with</source>
-        <translation>O endereço Monacoin para designar a mensagem</translation>
+        <source>The NobleGasCoin address to sign the message with</source>
+        <translation>O endereço NobleGasCoin para designar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2371,8 +2371,8 @@
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Monacoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Monacoin</translation>
+        <source>Sign the message to prove you own this NobleGasCoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço NobleGasCoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2395,12 +2395,12 @@
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia quebras de linha, espaços, tabulações, etc. exactamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Monacoin address the message was signed with</source>
-        <translation>O endereço Monacoin com que a mensagem foi designada</translation>
+        <source>The NobleGasCoin address the message was signed with</source>
+        <translation>O endereço NobleGasCoin com que a mensagem foi designada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Monacoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Monacoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified NobleGasCoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço NobleGasCoin especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3016,8 +3016,8 @@
         <translation>Não é possível iniciar o servidor HTTP. Verifique o debug.log para detalhes.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>NobleGasCoin Core</source>
+        <translation>NobleGasCoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

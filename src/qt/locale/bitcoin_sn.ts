@@ -98,8 +98,8 @@
         <translation>Vhura &amp;URI</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>NobleGasCoin</source>
+        <translation>NobleGasCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -165,8 +165,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>NobleGasCoin</source>
+        <translation>NobleGasCoin</translation>
     </message>
     </context>
 <context>
@@ -194,8 +194,8 @@
         <translation>Marii </translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
-        <translation>Nyora kero ye Monacoin (sekuti %1)</translation>
+        <source>Enter a NobleGasCoin address (e.g. %1)</source>
+        <translation>Nyora kero ye NobleGasCoin (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

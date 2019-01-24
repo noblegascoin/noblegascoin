@@ -79,7 +79,7 @@ namespace // Anon namespace
 //
 static QString ipcServerName()
 {
-    QString name("MonacoinQt");
+    QString name("NobleGasCoinQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -448,7 +448,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
             }
             else
                 Q_EMIT message(tr("URI handling"),
-                    tr("URI cannot be parsed! This can be caused by an invalid Monacoin address or malformed URI parameters."),
+                    tr("URI cannot be parsed! This can be caused by an invalid NobleGasCoin address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;

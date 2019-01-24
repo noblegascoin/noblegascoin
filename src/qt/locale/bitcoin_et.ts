@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Monacoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your NobleGasCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu NobleGasCoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Monacoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your NobleGasCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu NobleGasCoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -290,8 +290,8 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Saada münte Monacoini aadressile</translation>
+        <source>Send coins to a NobleGasCoin address</source>
+        <translation>Saada münte NobleGasCoini aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +314,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>NobleGasCoin</source>
+        <translation>NobleGasCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -342,12 +342,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Monacoini aadressiga</translation>
+        <source>Sign messages with your NobleGasCoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma NobleGasCoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Monacoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified NobleGasCoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud NobleGasCoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -378,8 +378,8 @@
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Monacoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Monacoini võrku</numerusform><numerusform>%n aktiivset ühendust Monacoini võrku</numerusform></translation>
+        <source>%n active connection(s) to NobleGasCoin network</source>
+        <translation><numerusform>%n aktiivne ühendus NobleGasCoini võrku</numerusform><numerusform>%n aktiivset ühendust Monacoini võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Monacoin aadress.</translation>
+        <source>The entered address "%1" is not a valid NobleGasCoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne NobleGasCoin aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -683,8 +683,8 @@
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>NobleGasCoin</source>
+        <translation>NobleGasCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -760,8 +760,8 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Monacoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the NobleGasCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>NobleGasCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -859,7 +859,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NobleGasCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1361,8 +1361,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Monacoin address</source>
-        <translation>Hoiatus: Ebakorrektne Monacoin aadress</translation>
+        <source>Warning: Invalid NobleGasCoin address</source>
+        <translation>Hoiatus: Ebakorrektne NobleGasCoin aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1445,8 +1445,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Monacoin address to sign the message with</source>
-        <translation>Monacoin aadress millega sõnum allkirjastada</translation>
+        <source>The NobleGasCoin address to sign the message with</source>
+        <translation>NobleGasCoin aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1477,8 +1477,8 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Monacoin address</source>
-        <translation>Allkirjasta sõnum Monacoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this NobleGasCoin address</source>
+        <translation>Allkirjasta sõnum NobleGasCoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1497,12 +1497,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Monacoin address the message was signed with</source>
-        <translation>Monacoin aadress millega sõnum on allkirjastatud</translation>
+        <source>The NobleGasCoin address the message was signed with</source>
+        <translation>NobleGasCoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Monacoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Monacoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified NobleGasCoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud NobleGasCoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1970,8 +1970,8 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoini tuumik</translation>
+        <source>NobleGasCoin Core</source>
+        <translation>NobleGasCoini tuumik</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

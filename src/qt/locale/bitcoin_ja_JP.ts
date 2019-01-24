@@ -62,11 +62,11 @@
         <translation>アドレス受信</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your NobleGasCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>支払送信するためのモナコインアドレスです。コインを送付する前に、いつも残高と受信アドレスの確認をしてください。</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your NobleGasCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>支払の受信をするためのモナコインアドレスです。それぞれの処理に新規に受信アドレスを使用することを推奨します。</translation>
     </message>
     <message>
@@ -338,7 +338,7 @@
         <translation>ディスクのブロックの再インデックス中...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
+        <source>Send coins to a NobleGasCoin address</source>
         <translation>モナコインアドレスにコインを送信</translation>
     </message>
     <message>
@@ -362,7 +362,7 @@
         <translation>&amp;メッセージの確認...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
+        <source>NobleGasCoin</source>
         <translation>モナコイン</translation>
     </message>
     <message>
@@ -390,11 +390,11 @@
         <translation>財布に属するプライベートキーの暗号化</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
+        <source>Sign messages with your NobleGasCoin addresses to prove you own them</source>
         <translation>所有者であることを証明するためにモナコインアドレスのメッセージにサイン</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified NobleGasCoin addresses</source>
         <translation>署名された特定のモナコインアドレスを確認するために、メッセージを確認</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>更新日</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible NobleGasCoin command-line options</source>
         <translation>モナコインのコマンドラインオプションとして可能なリストの取得の%1ヘルプメッセージを表示</translation>
     </message>
     <message>
@@ -540,7 +540,7 @@
         <translation>財布は &lt;b&gt;暗号化され&lt;/b&gt; そして現在 &lt;b&gt;ロックされています&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. NobleGasCoin can no longer continue safely and will quit.</source>
         <translation>致命的なエラーが発生しました。モナコインは安全に終了することができません。</translation>
     </message>
 </context>
@@ -734,7 +734,7 @@
         <translation>送信アドレスの編集</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
+        <source>The entered address "%1" is not a valid NobleGasCoin address.</source>
         <translation>入寮されたアドレス "%1" は正当なモナコインアドレスではありません。</translation>
     </message>
     <message>
@@ -1028,7 +1028,7 @@
         <translation>&amp;認証されていない変更の支払い</translation>
     </message>
     <message>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the NobleGasCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>自動絵的にルータのモナコインのクライアントポートが開きます。この機能はルータがUPnPをサポートし、有効であるときに動作します。</translation>
     </message>
     <message>
@@ -1036,7 +1036,7 @@
         <translation>&amp;UPnPを使用してポート配置します。</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the NobleGasCoin network through a SOCKS5 proxy.</source>
         <translation>SOCKS5プロキシを使用してモナコインネットワークへ接続</translation>
     </message>
     <message>
@@ -1072,7 +1072,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the NobleGasCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Tor秘匿ネットワークのための区切られたSOCKS5を経由して、モナコインネットワークに接続</translation>
     </message>
     <message>
@@ -1171,7 +1171,7 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NobleGasCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>表示されている情報は、期限切れの可能性があります。ウォレットは自動的にモナコインネットワークへの接続が確立した後に同期化されます。しかし、処理はまだ、完了していません。</translation>
     </message>
     <message>
@@ -1262,7 +1262,7 @@
         <translation>無効な支払アドレス %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Monacoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid NobleGasCoin address or malformed URI parameters.</source>
         <translation>URLはパースできませんでした! 原因はモナコインアドレスが無効であるか、URIパラメータの形式が間違っている可能性があります。</translation>
     </message>
     <message>
@@ -1356,7 +1356,7 @@
         <translation>残高</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
+        <source>Enter a NobleGasCoin address (e.g. %1)</source>
         <translation>モナコインアドレスの入力 (例 %1)</translation>
     </message>
     <message>
@@ -1744,7 +1744,7 @@
         <translation>&amp;再度存在している受信アドレスを死闘する(非推奨)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monacoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the NobleGasCoin network.</source>
         <translation>支払要求に添付されたオプションメッセージは、要求を開いたときに表示されます。メモ: メッセージは、モナコインネットワーク上で支払と一緒に送信されません。</translation>
     </message>
     <message>
@@ -2121,7 +2121,7 @@
         <translation>%1の必須料金のみ支払う</translation>
     </message>
     <message>
-        <source>Warning: Invalid Monacoin address</source>
+        <source>Warning: Invalid NobleGasCoin address</source>
         <translation>注意: 無効なモナコインアドレス</translation>
     </message>
     <message>
@@ -2164,7 +2164,7 @@
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
-        <source>The Monacoin address to send the payment to</source>
+        <source>The NobleGasCoin address to send the payment to</source>
         <translation>支払に送信するモナコインアドレス</translation>
     </message>
     <message>
@@ -2208,7 +2208,7 @@
         <translation>使用されたアドレス一覧のために、このアドレスのラベルを入力します。</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monacoin network.</source>
+        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the NobleGasCoin network.</source>
         <translation>参考資料に保存された処理のモナコインURIは、メッセージに添付されます。メモ: このメッセージはモナコイン上で送信されません。</translation>
     </message>
     <message>
@@ -2257,7 +2257,7 @@
         <translation>送信されたモナコインを受信できることを証明するために、アドレスのメッセージや同意事項に署名できます。フィッシング攻撃が署名を利用する可能性があるので、署名が曖昧やランダムでないことに注意してください。詳細な明細のみに署名されます。</translation>
     </message>
     <message>
-        <source>The Monacoin address to sign the message with</source>
+        <source>The NobleGasCoin address to sign the message with</source>
         <translation>メッセージ署名するためのモナコインアドレス</translation>
     </message>
     <message>
@@ -2289,7 +2289,7 @@
         <translation>システムのクリップボードへ現在の署名をコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Monacoin address</source>
+        <source>Sign the message to prove you own this NobleGasCoin address</source>
         <translation>モナコインアドレスを証明するために、メッセージに署名</translation>
     </message>
     <message>
@@ -2313,11 +2313,11 @@
         <translation>以下のメッセージを確認して、受信者のアドレス、メッセージ（タブやすスペースなどを正確にこぴーしてください）、署名を入力してください。中間の攻撃者からのアタックを避けるために、署名されていないメッセージを読まないように注意してください。署名はアドレスと受信を証明することはできますが、送信者の処理を証明できないことに注意してください。</translation>
     </message>
     <message>
-        <source>The Monacoin address the message was signed with</source>
+        <source>The NobleGasCoin address the message was signed with</source>
         <translation>メッセージのモナコインアドレスはサインされています</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Monacoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NobleGasCoin address</source>
         <translation>特定のモナコインアドレスと署名されているメッセージであることを確認してください。</translation>
     </message>
     <message>
