@@ -559,7 +559,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "monacoin";
+    const char* pszModule = "noblegascoin";
 #endif
     if (pex)
         return strprintf(
@@ -584,7 +584,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Monacoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "NobleGasCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -594,10 +594,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Monacoin";
+    return pathRet / "Library/Application Support/NobleGasCoin";
 #else
     // Unix
-    return pathRet / ".monacoin";
+    return pathRet / ".noblegascoin";
 #endif
 #endif
 }
