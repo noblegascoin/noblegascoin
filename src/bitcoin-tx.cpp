@@ -55,10 +55,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = strprintf(_("%s monacoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = strprintf(_("%s noblegascoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  monacoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded monacoin transaction") + "\n" +
-              "  monacoin-tx [options] -create [commands]   " + _("Create hex-encoded monacoin transaction") + "\n" +
+              "  noblegascoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded NobleGasCoin transaction") + "\n" +
+              "  noblegascoin-tx [options] -create [commands]   " + _("Create hex-encoded NobleGasCoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

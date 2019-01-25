@@ -82,8 +82,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "monacoin.conf";
-const char * const BITCOIN_PID_FILENAME = "monacoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "noblegascoin.conf";
+const char * const BITCOIN_PID_FILENAME = "noblegascoin.pid";
 const char * const DEFAULT_DEBUGLOGFILE = "debug.log";
 
 ArgsManager gArgs;

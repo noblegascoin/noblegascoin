@@ -48,14 +48,14 @@
 #endif
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("monacoin:");
+const QString BITCOIN_IPC_PREFIX("NobleGasCoin:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
-const char* BIP71_MIMETYPE_PAYMENT = "application/monacoin-payment";
-const char* BIP71_MIMETYPE_PAYMENTACK = "application/monacoin-paymentack";
-const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/monacoin-paymentrequest";
+const char* BIP71_MIMETYPE_PAYMENT = "application/NobleGasCoin-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/NobleGasCoin-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/NobleGasCoin-paymentrequest";
 
 struct X509StoreDeleter {
       void operator()(X509_STORE* b) {
@@ -325,7 +325,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "Q_EMIT message()" here
             QMessageBox::critical(0, tr("Payment request error"),
-                tr("Cannot start monacoin: click-to-pay handler"));
+                tr("Cannot start NobleGasCoin: click-to-pay handler"));
         }
         else {
             connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));

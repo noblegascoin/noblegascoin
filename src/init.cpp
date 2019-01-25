@@ -194,7 +194,7 @@ void Shutdown()
     /// for example if the data directory was found to be locked.
     /// Be sure that anything that writes files or flushes caches only does this if the respective
     /// module was initialized.
-    RenameThread("monacoin-shutoff");
+    RenameThread("noblegascoin-shutoff");
     mempool.AddTransactionsUpdated(1);
 
     StopHTTPRPC();
@@ -539,8 +539,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/monacoinproject/monacoin>";
-    const std::string URL_WEBSITE = "<https://monacoin.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/noblegascoinproject/NobleGasCoin>";
+    const std::string URL_WEBSITE = "<https://noblegascoin.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2013, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -644,7 +644,7 @@ void CleanupBlockRevFiles()
 void ThreadImport(std::vector<fs::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
-    RenameThread("monacoin-loadblk");
+    RenameThread("noblegascoin-loadblk");
 
     {
     CImportingNow imp;
@@ -1246,9 +1246,9 @@ bool AppInitMain()
     // Warn about relative -datadir path.
     if (gArgs.IsArgSet("-datadir") && !fs::path(gArgs.GetArg("-datadir", "")).is_absolute()) {
         LogPrintf("Warning: relative datadir option '%s' specified, which will be interpreted relative to the "
-                  "current working directory '%s'. This is fragile, because if monacoin is started in the future "
+                  "current working directory '%s'. This is fragile, because if noblegascoin is started in the future "
                   "from a different location, it will be unable to locate the current data files. There could "
-                  "also be data loss if monacoin is started while in a temporary directory.\n",
+                  "also be data loss if noblegascoin is started while in a temporary directory.\n",
             gArgs.GetArg("-datadir", ""), fs::current_path().string());
     }
 
