@@ -84,7 +84,7 @@ public:
         consensus.powLimit = uint256S("000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 30 * 60; //  30 minutes
         consensus.nPowTargetSpacing = 1.5 * 60; // 1.5 minutes
-        consensus.nPowTargetTimespanDigisheld = 1.5 * 60;
+        consensus.nPowTargetTimespanDigishield = 1.5 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 7560; // 75% of 10080
@@ -198,7 +198,7 @@ public:
         consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 1.1 * 24 * 60 * 60; // 1.1 days
         consensus.nPowTargetSpacing = 1.5 * 60; // 1.5 minutes
-        consensus.nPowTargetTimespanDigisheld = 1.5 * 60;
+        consensus.nPowTargetTimespanDigishield = 1.5 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 75; // 75% for testchains
