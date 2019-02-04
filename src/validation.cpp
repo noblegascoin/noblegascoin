@@ -1124,7 +1124,7 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos, int nHeight, con
     }
 
     // Check the header
-    if (!CheckProofOfWork(block.GetPoWHash(nHeight >= Params().SwitchLyra2REv2_DGWblock()), block.nBits, consensusParams))
+    if (!CheckProofOfWork(block.GetPoWHash(nHeight >= Params().SwitchLyra2REv2_DGWblock()), block.nBits, nHeight, consensusParams))
         return error("ReadBlockFromDisk: Errors in block header at %s", pos.ToString());
 
     return true;
