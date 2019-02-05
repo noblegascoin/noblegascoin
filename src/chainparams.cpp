@@ -122,10 +122,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x12;
-        pchMessageStart[1] = 0x34;
-        pchMessageStart[2] = 0x56;
-        pchMessageStart[3] = 0x78;
+        pchMessageStart[0] = 0xf7;
+        pchMessageStart[1] = 0xc1;
+        pchMessageStart[2] = 0xfa;
+        pchMessageStart[3] = 0xb4;
         nDefaultPort = 18730;
         nPruneAfterHeight = 100000;
         vAlertPubKey[MAIN_KEY] = ParseHex("04a249957c97bd85571858786e6383d1e9b6d323ecad813b63cb52c8da86d56def2e9974dbb5c1c749aa9cf34f3f175aba43e22898f176eceec591f045b1d37a68");
@@ -226,10 +226,10 @@ public:
         consensus.nSubsidyAmount = 2500 * COIN;
 	    consensus.nSubsidyBlankHeight = 30 * 60 / consensus.nPowTargetSpacing; //30 minutes
 
-        pchMessageStart[0] = 0xab;
-        pchMessageStart[1] = 0xcd;
-        pchMessageStart[2] = 0xef;
-        pchMessageStart[3] = 0x99;
+        pchMessageStart[0] = 0xf9;
+        pchMessageStart[1] = 0xc0;
+        pchMessageStart[2] = 0xac;
+        pchMessageStart[3] = 0xb9;
 
         // Hardfork params
         nSwitchKGWblock = -1;
